@@ -1,0 +1,59 @@
+/************************************** RESET CSS ******************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100dvh;
+    font-family: 'Roboto', serif;
+}
+
+h1, h2, h3 {
+    text-wrap: balance;
+}
+
+p {
+    max-width: 65ch;
+    text-wrap: pretty;
+}
+
+img, svg, video, picture {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    display: block;
+    cursor: pointer;
+    background: none;
+}
+
+button i:hover, a i:hover{
+    scale: 1.2;
+}
+
+input, select, textarea {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+input, select, textarea, button {
+    font: inherit
+}
+
+ul {
+    list-style-type: none;
+}
+/************************************** RESET CSS ******************************************/
