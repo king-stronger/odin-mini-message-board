@@ -1,0 +1,24 @@
+{
+  "name": "odin-mini-message-board",
+  "version": "1.0.0",
+  "description": "Mini message board project from odin project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/king-stronger/odin-mini-message-board.git"
+  },
+  "author": "Stronger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/king-stronger/odin-mini-message-board/issues"
+  },
+  "homepage": "https://github.com/king-stronger/odin-mini-message-board#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
