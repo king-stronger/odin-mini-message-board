@@ -11,28 +11,30 @@
     <nav class="container">
         <ul>
             <li>
-                <h1>Message Board</h1>
+                Message Board
             </li>
         </ul>
         <ul>
             <li><a class="contrast" href="/">Home</a></li>
-            <li><a class="contrast" href="/new">New</a></li>
+            <li><a class="contrast" href="/new"><button>New</button></a></li>
         </ul>
     </nav>
-    
+
     <main class="container">
         <ul>
             <% messages.forEach((message, index) => { %>
                 <li>
-                    <h2><%= message.user%></h2>
+                    <h3><%= message.user%></h3>
                     <p><%= message.text %></p>
-                    <span><%= message.added %></span>
+                    <small><%= message.added %></small>
                     <a href="<%= `/message/${index}` %>">See more</a>
                 </li>
             <% }) %>
         </ul>
 
-        <a href="/new">Add a new message</a>
+        <a href="/new">
+            <button>Add a new message</button>
+        </a>
     </main>
 </body>
 </html>
